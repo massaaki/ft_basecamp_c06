@@ -6,7 +6,7 @@
 /*   By: mmassaak <mmassaak@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/14 19:37:43 by mmassaak          #+#    #+#             */
-/*   Updated: 2021/04/14 20:14:17 by mmassaak         ###   ########.fr       */
+/*   Updated: 2021/04/16 18:35:12 by mmassaak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,9 +24,9 @@ void	ft_putstr(char *str)
 	}
 }
 
-int	main(int argc, char **argv)
+int		main(int argc, char **argv)
 {
-	if(argc > 0)
+	if (argc > 0)
 		ft_putstr(argv[0]);
 	write(1, "\n", 1);
 	return (0);
